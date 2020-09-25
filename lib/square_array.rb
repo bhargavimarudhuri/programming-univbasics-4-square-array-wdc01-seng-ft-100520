@@ -1,10 +1,8 @@
 
-counter = 0
-
-numbers = [1, 2, 3]
-
-while numbers[counter] do
-  puts square_array = Math.sqrt(numbers)
-  counter += 1
+def square_array(array)
+ array.each do |integer|
+  new_array = [integer ** 2]
+  return new_array
+ end
 end
 
