@@ -1,2 +1,2 @@
 
-while 
+while square_array(numbers)
