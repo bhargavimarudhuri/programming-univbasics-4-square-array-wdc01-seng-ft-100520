@@ -1,9 +1,9 @@
-def sq(arr)
-  enum = arr.each
-  a = []
-  loop do
-    n = enum.next
-    a << n*n
-  end
-  a
+def square_array(numbers)
+  new_array = []
+  counter = 0 
+  while counter < numbers.length()
+  new_array.push(numbers[counter] * numbers[counter])
+  counter += 1
+  end 
+  return new_array
 end
